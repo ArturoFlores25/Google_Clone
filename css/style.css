@@ -35,7 +35,7 @@ header nav .nav-right-section{
 nav .nav-right-section a{
     margin-right: 10px;
     color: black;
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 nav .nav-right-section .menu-icon{
@@ -53,33 +53,37 @@ nav .nav-right-section img{
     height: 25px;
 }
 main {
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
 }
 main .main-logo{
-    width: 530px;
-    margin: auto;
-    margin-bottom: 35px;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 16px;
 }
 main .main-logo img{
-    width: 272px;
+    width: 80px;
 }
+
 main .main-input{
-    width: 530px;
-    margin: auto;
-    margin-bottom: 35px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
 }
 main .main-input-container{
-    width: 525px;
+    width: 80%;
     border-radius: 100px;
     border: 1px solid #dfe1e5;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 8px;
 }
 main .main-input input{
-    width: 450px;
-    height: 40px;
+    width: 80%;
+    height: 16px;
     border: none;
     outline: none;
 }
@@ -87,13 +91,14 @@ main .main-input-container:hover{
     box-shadow: 0 1px 6px 0 #20212447;
     border-color: #dfe1e500;
 }
+
 main .main-input .search-icon{
     background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     filter: opacity(.5)
 }
 main .main-input .micro-icon{
@@ -101,22 +106,22 @@ main .main-input .micro-icon{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     cursor: pointer;
 }
 main .main-buttons{
-    width: 530px;
+    width: 100%;
     margin: 0 auto;
 }
 main .main-buttons div{
     display: inline-block;
 }
 main .main-buttons button{
-    height: 36px;
+    height: 20px;
     background-color: #f2f2f2;
     border: 0;
-    font-size: 14px;
+    font-size: 0.6rem;
     color: #5f6368;
     border-radius:4px;
     padding: 0 15px;
@@ -127,7 +132,7 @@ main .main-buttons button:hover{
     box-shadow: 0 1px 1px rgb(0, 0, 0/ 10%);
     color: #202124 ;
 }
-footer{
+/* footer{
     width: 100%;
     height: 50px;
     position: absolute;
@@ -155,12 +160,38 @@ footer ul li a{
     margin: 10px;
     text-decoration: none;
     color: #5f6368;
-}
+} */
 @media (min-width:320px){
+    main .main-logo{
+        margin-bottom: 8px;
+    }
+    main .main-input-container{
+        width: 75%;
+    }    
+    main .main-buttons button{
+        padding: 0 4px;
+        margin-right: 4px;
+    }
 }
 @media (min-width:420px){
     nav .nav-right-section a{
         font-size: 1.2rem;
+    }
+    
+    main{
+        margin-top: 75px;
+    }
+    main .main-logo img{
+        width: 120px;
+    } 
+    main .main-logo{
+        margin-bottom: 20px;
+    }
+    main .main-input input{
+        height: 20px;
+    }
+    main .main-buttons button{
+        font-size: 0.8rem;
     }
 }
 @media (min-width:720px){
@@ -175,10 +206,40 @@ footer ul li a{
         width: 32px;
         height: 32px;
     }
+
+    main{
+        margin-top: 150px;
+    }
+    main .main-logo img{
+        width: 270px;
+    }
+    main .main-logo{
+        margin-bottom: 28px;
+    }
+    main .main-input-container{
+        padding: 0 12px;
+    }
+    main .main-input input{
+        height: 32px;
+    }
+    main .main-input .search-icon{
+        width: 20px;
+        height: 20px;
+    }
+    main .main-input .micro-icon{
+        width: 20px;
+        height: 20px;
+    }
+    main .main-buttons button{
+        height: 36px;
+        font-size: 1.2rem;
+        padding: 0 15px;
+        margin-right: 15px;
+    }
 }
-@media (min-width:1080px){
+@media (min-width:1024px){
     nav .nav-right-section a{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     nav .nav-right-section .menu-icon{
         width: 32px;
@@ -187,5 +248,45 @@ footer ul li a{
     nav .nav-right-section img{
         width: 32px;
         height: 32px;
+    }
+
+    main{
+        margin-top: 150px;
+    }
+    main .main-logo img{
+        width: 320px;
+    }
+    main .main-logo{
+        margin-bottom: 35px;
+    }
+    main .main-input-container{
+        padding: 0 20px;
+
+        }
+        main .main-buttons button{
+        height: 36px;
+        font-size: 1.2rem;
+        padding: 0 15px;
+        margin-right: 15px;
+    }
+    main .main-input{
+        margin-bottom: 36px;
+    }
+    main .main-input input{
+        height: 42px;
+    }
+    main .main-input .search-icon{
+        width: 24px;
+        height: 24px;
+    }
+    main .main-input .micro-icon{
+        width: 24px;
+        height: 24px;
+    }
+    main .main-buttons button{
+        height: 36px;
+        font-size: 1.6rem;
+        padding: 0 15px;
+        margin-right: 15px;
     }
 }
