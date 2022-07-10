@@ -146,12 +146,13 @@ footer .footer--text-container{
     width: 100%;
 }
 .footer--text-container p{
-    padding: 12px 12px;
+    padding: 8px 12px;
 }
 .footer--links-container{
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
     display: flex;
+    justify-content: space-evenly;
 }
 footer ul{
     margin: 6px;
@@ -164,6 +165,8 @@ footer .footer-left{
 }
 footer .footer-right{
     justify-self:right;
+    /* display: flex;
+    justify-content: end; */
 }
 footer ul li a{
     margin: 6px;
