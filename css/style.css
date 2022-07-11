@@ -146,13 +146,15 @@ footer .footer--text-container{
     width: 100%;
 }
 .footer--text-container p{
-    padding: 8px 12px;
+    padding: 4px 12px;
+    border-bottom: 1px solid #e4e4e4;
 }
 .footer--links-container{
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
     display: flex;
     justify-content: space-evenly;
+    margin: 2vh 0;
 }
 footer ul{
     margin: 6px;
@@ -169,7 +171,7 @@ footer .footer-right{
     justify-content: end; */
 }
 footer ul li a{
-    margin: 6px;
+    margin: 4px;
     text-decoration: none;
     color: #5f6368;
 }
@@ -204,6 +206,26 @@ footer ul li a{
     }
     main .main-buttons button{
         font-size: 0.8rem;
+    }
+    footer{
+        font-size: 8px;
+    }
+    .footer--text-container p{
+        padding: 5px 12px;
+    }
+    .footer--links-container{
+        /* display: grid;
+        grid-template-columns: 1fr 1fr; */
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media (min-width:600px){
+    footer{
+        font-size: 10px;
+    }
+    footer ul li a{
+        margin: 8px;
     }
 }
 @media (min-width:720px){
@@ -247,6 +269,12 @@ footer ul li a{
         font-size: 1.2rem;
         padding: 0 15px;
         margin-right: 15px;
+    }
+    footer{
+        font-size: 12px;
+    }
+    footer ul li a{
+        margin: 10px;
     }
 }
 @media (min-width:1024px){
@@ -300,5 +328,11 @@ footer ul li a{
         font-size: 1.6rem;
         padding: 0 15px;
         margin-right: 15px;
+    }
+    footer{
+        font-size: 14px;
+    }
+    footer ul li a{
+        margin: 12px;
     }
 }
