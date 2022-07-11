@@ -66,14 +66,14 @@ main .main-logo img{
 }
 
 main .main-input{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     margin-bottom: 12px;
     display: flex;
     justify-content: center;
 }
 main .main-input-container{
-    width: 80%;
+    width: 75%;
     border-radius: 100px;
     border: 1px solid #dfe1e5;
     display: flex;
@@ -82,7 +82,7 @@ main .main-input-container{
     padding: 0 8px;
 }
 main .main-input input{
-    width: 80%;
+    width: 95%;
     height: 16px;
     border: none;
     outline: none;
@@ -215,8 +215,6 @@ footer ul li a{
         padding: 5px 12px;
     }
     .footer--links-container{
-        /* display: grid;
-        grid-template-columns: 1fr 1fr; */
         display: flex;
         justify-content: space-evenly;
     }
@@ -290,7 +288,6 @@ footer ul li a{
         width: 32px;
         height: 32px;
     }
-
     main{
         margin-top: 150px;
     }
@@ -302,9 +299,9 @@ footer ul li a{
     }
     main .main-input-container{
         padding: 0 20px;
-
-        }
-        main .main-buttons button{
+        
+    }
+    main .main-buttons button{
         height: 36px;
         font-size: 1.2rem;
         padding: 0 15px;
@@ -312,6 +309,7 @@ footer ul li a{
     }
     main .main-input{
         margin-bottom: 36px;
+        width: 60%;
     }
     main .main-input input{
         height: 42px;
@@ -335,5 +333,8 @@ footer ul li a{
     }
     footer ul li a{
         margin: 12px;
+    }
+    .footer--links-container{
+        justify-content: space-between;
     }
 }
