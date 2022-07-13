@@ -1,0 +1,12 @@
+@media (min-width:320px){
+    main .main-logo{
+        margin-bottom: 8px;
+    }
+    main .main-input-container{
+        width: 75%;
+    }    
+    main .main-buttons button{
+        padding: 0 4px;
+        margin-right: 4px;
+    }
+}

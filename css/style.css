@@ -176,18 +176,6 @@ footer ul li a{
     text-decoration: none;
     color: #5f6368;
 }
-@media (min-width:320px){
-    main .main-logo{
-        margin-bottom: 8px;
-    }
-    main .main-input-container{
-        width: 75%;
-    }    
-    main .main-buttons button{
-        padding: 0 4px;
-        margin-right: 4px;
-    }
-}
 @media (min-width:420px){
     nav .nav-right-section a{
         font-size: 1.2rem;
