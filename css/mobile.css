@@ -10,3 +10,34 @@
         margin-right: 4px;
     }
 }
+@media (min-width:420px){
+    nav .nav-right-section a{
+        font-size: 1.2rem;
+    }
+    
+    main{
+        margin-top: 75px;
+    }
+    main .main-logo img{
+        width: 120px;
+    } 
+    main .main-logo{
+        margin-bottom: 20px;
+    }
+    main .main-input input{
+        height: 20px;
+    }
+    main .main-buttons button{
+        font-size: 0.8rem;
+    }
+    footer{
+        font-size: 8px;
+    }
+    .footer--text-container p{
+        padding: 5px 12px;
+    }
+    .footer--links-container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
